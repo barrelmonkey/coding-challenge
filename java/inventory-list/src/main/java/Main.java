@@ -11,6 +11,7 @@ public class Main {
         try{
             listProducts();
             listStockLevels();
+            System.out.println("\n Congratulations! The errors have been fixed and this program completed successfully");
         }
         catch(Exception e){
             e.printStackTrace();
